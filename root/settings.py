@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-sr)ip+jk6-e6wdk#^8m^p6o(vf)j-%xnmuxhbi6264^v)^37o=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.activity.uz', 'activity.uz']
 
 
 # Application definition
@@ -122,8 +122,8 @@ USE_TZ = False
 STATIC_URL = 'static/'
 STATIC_ROOT = '/var/www/activity.uz/static/'
 
-MEDIA_URL = 'static/'
-MEDIA_ROOT = '/var/www/activity.uz/static/'
+MEDIA_URL = 'media/'
+MEDIA_ROOT = '/var/www/activity.uz/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
